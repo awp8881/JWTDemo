@@ -33,5 +33,4 @@ public class loginCheckInterceptor implements HandlerInterceptor {
         }
         return true;
     }
-
 }

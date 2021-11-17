@@ -2,7 +2,7 @@ package com.example.util;
 
 
 /**
- * @Description: 获取本次用户数据
+ * @Description: 获取/设置本次用户数据
  */
 public class UserUtil {
 

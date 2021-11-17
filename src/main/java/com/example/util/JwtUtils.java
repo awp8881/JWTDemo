@@ -38,21 +38,6 @@ public class JwtUtils {
 
     /**
      * 判断token是否存在与有效
-     * @param JID
-     * @return
-     */
-    public static boolean checkToken(String JID) {
-        if(StringUtils.isEmpty(JID)) return false;
-        try {
-            Jwts.parser().setSigningKey(APP_SECRET).parseClaimsJws(JID);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return false;
-        }
-        return true;
-    }
-    /**
-     * 判断token是否存在与有效
      * @param request
      * @return
      */
